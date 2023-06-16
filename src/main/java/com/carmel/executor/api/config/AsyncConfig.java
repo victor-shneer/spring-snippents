@@ -1,8 +1,10 @@
 package com.carmel.executor.api.config;
 
+import jakarta.servlet.Servlet;
+import org.h2.server.web.WebServlet;
+import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.scheduling.annotation.AsyncConfigurer;
 import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 
@@ -22,4 +24,12 @@ public class AsyncConfig {
         executor.initialize();
         return executor;
     }
+
+//    @Bean
+//    ServletRegistrationBean h2ServletRegistration(){
+//        ServletRegistrationBean registrationBean =
+//                new ServletRegistrationBean((Servlet) new WebServlet());
+//        registrationBean.addUrlMappings("/console/*");
+//        return registrationBean;
+//    }
 }
