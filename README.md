@@ -14,6 +14,7 @@ Code aims illustration purposes, not the best practices.
 - "eventually" function from DA, see UserService. Help to test runnable that takes time to complete
 - yml config example, see resources
 - Pagination, see UserRepository (todo need more)
+- User input from console
 
 ## TODO
 - sorting
