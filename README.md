@@ -15,7 +15,9 @@ Code aims illustration purposes, not the best practices.
 - yml config example, see resources
 - Pagination, see UserRepository (todo need more)
 - User input from console
+- Custom annotations
 
 ## TODO
 - sorting
 - joins
+- junit
