@@ -16,8 +16,10 @@ Code aims illustration purposes, not the best practices.
 - Pagination, see UserRepository (todo need more)
 - User input from console
 - Custom annotations
+- JSON Jackson
 
 ## TODO
 - sorting
 - joins
-- junit
+- functional interfaces/lambda with parameters
+- runnables
