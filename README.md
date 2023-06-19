@@ -17,6 +17,7 @@ Code aims illustration purposes, not the best practices.
 - User input from console
 - Custom annotations
 - JSON Jackson
+- Java doc
 
 ## TODO
 - sorting
