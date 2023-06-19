@@ -19,9 +19,10 @@ Code aims illustration purposes, not the best practices.
 - JSON Jackson
 - Java doc
 - Generics use cases
+- Streams
 
 ## TODO
 - sorting
 - joins
 - functional interfaces/lambda with parameters
-- runnables
+- runnable
