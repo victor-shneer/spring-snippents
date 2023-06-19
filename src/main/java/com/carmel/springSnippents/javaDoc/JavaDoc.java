@@ -1,6 +1,6 @@
-package com.carmel.javaDoc;
+package com.carmel.springSnippents.javaDoc;
 
-import com.carmel.json.pojo.JsonPojo;
+import com.carmel.springSnippents.entity.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -30,7 +30,7 @@ public class JavaDoc {
      * @return the same thing that receives
      */
     @PostMapping(value = "/post", consumes = "application/json", produces = "application/json")
-    public JsonPojo post(@RequestBody JsonPojo jsonPojo){
+    public User post(@RequestBody User jsonPojo){
         return jsonPojo;
     }
 }
