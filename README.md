@@ -23,6 +23,7 @@ Code aims illustration purposes, not the best practices.
 - Collections
 - Functional interfaces
 - VarArgs and String Buffer
+- Arrays class usage examples
 
 ## TODO
 - sorting
