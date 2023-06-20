@@ -24,6 +24,7 @@ Code aims illustration purposes, not the best practices.
 - Functional interfaces
 - VarArgs and String Buffer
 - Arrays class usage examples
+- Logging configs, see application.properties
 
 ## TODO
 - sorting

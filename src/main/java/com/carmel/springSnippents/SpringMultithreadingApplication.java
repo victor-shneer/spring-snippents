@@ -8,12 +8,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import java.util.Scanner;
 
 @SpringBootApplication
-public class SpringMultithreadApplication {
+public class SpringMultithreadingApplication {
 
-	static Logger logger = LoggerFactory.getLogger(SpringMultithreadApplication.class);
+	static Logger logger = LoggerFactory.getLogger(SpringMultithreadingApplication.class);
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringMultithreadApplication.class, args);
+		SpringApplication.run(SpringMultithreadingApplication.class, args);
 		Scanner myObj = new Scanner(System.in);  // Create a Scanner object
 		System.out.println("Enter username");
 
