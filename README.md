@@ -7,7 +7,7 @@ Code aims illustration purposes, not the best practices.
 
 ## Content
 - Many-to-many relationship Student-Subject, see Entities
-- One-to-mane for Teachers-Subject, see Entities
+- One-to-many for Teachers-Subject, see Entities
 - spring-boot-devtools for live updates, see build.gradle
 - Test context - Request, Controller, Spring MVC
 - Async + CompletableFuture, see UserService
@@ -20,9 +20,11 @@ Code aims illustration purposes, not the best practices.
 - Java doc
 - Generics use cases
 - Streams
+- Collections
+- Functional interfaces
 
 ## TODO
 - sorting
 - joins
-- functional interfaces/lambda with parameters
+- lambda with parameters
 - runnable
