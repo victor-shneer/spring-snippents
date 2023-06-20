@@ -1,10 +1,8 @@
 package com.carmel;
 
 import com.carmel.json.pojo.JsonPojo;
-import com.carmel.springSnippents.entity.User;
 import org.junit.jupiter.api.Test;
 
-import java.util.Random;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;

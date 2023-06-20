@@ -22,6 +22,7 @@ Code aims illustration purposes, not the best practices.
 - Streams
 - Collections
 - Functional interfaces
+- VarArgs and String Buffer
 
 ## TODO
 - sorting
