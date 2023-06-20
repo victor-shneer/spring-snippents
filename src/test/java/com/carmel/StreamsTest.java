@@ -5,7 +5,6 @@ import org.junit.jupiter.api.Test;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -60,7 +59,7 @@ public class StreamsTest {
         // you can run streams in multi thread mode
         cars.parallelStream()
                 .sequential() // back to sequential
-                .parallel()   // and back to parallel
-                .forEach(System.out::println);
+                .parallel()   // BUT you CANNOT switch one pipe in a half and say 1half parallel second seq.
+                .forEach(System.out::println); // the hole pipe will be in a way of the last modifier
     }
 }
