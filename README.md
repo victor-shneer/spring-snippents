@@ -15,7 +15,7 @@ Code aims illustration purposes, not the best practices.
 - yml config example, see resources
 - Pagination, see UserRepository (todo need more)
 - User input from console
-- Custom annotations
+- Custom annotations with Aspect and Around to track execution time
 - JSON Jackson
 - Java doc
 - Generics use cases with Comparable and Custom Comparator

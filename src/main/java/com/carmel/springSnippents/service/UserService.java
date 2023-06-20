@@ -1,5 +1,6 @@
 package com.carmel.springSnippents.service;
 
+import com.carmel.springSnippents.customAnnotation.TrackExecTime;
 import com.carmel.springSnippents.entity.User;
 import com.carmel.springSnippents.repository.UserRepository;
 import org.slf4j.Logger;
@@ -52,6 +53,7 @@ public class UserService {
     }
 
     @Async
+    @TrackExecTime
     public CompletableFuture<List<User>> findAllUsers(){
         logger.info("get list of users by " + Thread.currentThread().getName());
         List<User> users = repository.findAll();
