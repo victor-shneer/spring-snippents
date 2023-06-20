@@ -18,7 +18,7 @@ Code aims illustration purposes, not the best practices.
 - Custom annotations
 - JSON Jackson
 - Java doc
-- Generics use cases
+- Generics use cases with Comparable and Custom Comparator
 - Streams
 - Collections
 - Functional interfaces

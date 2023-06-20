@@ -6,13 +6,18 @@ import java.io.IOException;
 public class Thing implements Comparable<Thing>, Closeable {
 
     private final Integer number;
+    private final String name;
 
-    public Thing(Integer number) {
+    public Thing(Integer number, String name) {
         this.number = number;
+        this.name = name;
     }
 
     public Integer getNumber() {
         return number;
+    }
+    public String getName() {
+        return name;
     }
 
     @Override
