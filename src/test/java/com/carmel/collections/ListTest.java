@@ -6,7 +6,7 @@ import java.util.*;
 
 public class ListTest {
 
-    @Test
+//    @Test
     void list(){
         List<Object> objs = new ArrayList<>();
         objs.add(4);

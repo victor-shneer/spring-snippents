@@ -1,0 +1,10 @@
+FROM openjdk:17-oracle
+
+ENV LANGUAGE='en_US:en'
+
+ADD build/spring-multithread-0.0.1-SNAPSHOT.jar spring-multithread-0.0.1-SNAPSHOT.jar
+
+EXPOSE 9191
+USER 185
+ENV JAVA_APP_JAR="build/spring-snippets-0.0.1-SNAPSHOT.jar"
+ENTRYPOINT ["java", "-jar", "spring-snippets-0.0.1-SNAPSHOT.jar"]
