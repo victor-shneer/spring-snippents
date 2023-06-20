@@ -23,7 +23,7 @@ public class SubjectController {
         @PostMapping
         Subject createSubject(@RequestBody Subject subject){ return subjectRepository.save(subject);}
 
-        @PutMapping("/{subjectId}/students/{studentId")
+        @PutMapping("/{subjectId}/students/{studentId}")
         Subject enrolledStudentToSubject(
                 @PathVariable Integer subjectId,
                 @PathVariable Integer studentId

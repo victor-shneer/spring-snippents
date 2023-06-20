@@ -12,14 +12,14 @@ import java.util.Collection;
 
 public interface UserRepository extends JpaRepository<User,Integer> {
     //    JPQL examples
-    @Query("SELECT u FROM User")
+    @Query("SELECT name FROM User")
     Collection<User> findAllActiveUsers();
 
-    @Query(value = "SELECT u FROM User u ORDER BY id")
-    Page<User> findAllUsersWithPagination(Pageable pageable);
+//    @Query(value = "SELECT name FROM User name ORDER BY id")
+//    Page<User> findAllUsersWithPagination(Pageable pageable);
 
-    @Modifying
-    @Query("update User u set u.status = :status where u.name = :name")
-    int updateUserSetStatusForName(@Param("status") Integer status,
-                                   @Param("name") String name);
+//    @Modifying
+//    @Query("update User u set u.status = :status where u.name = :name")
+//    int updateUserSetStatusForName(@Param("status") Integer status,
+//                                   @Param("name") String name);
 }
