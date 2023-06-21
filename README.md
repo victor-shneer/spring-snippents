@@ -25,6 +25,7 @@ Code aims illustration purposes, not the best practices.
 - VarArgs and String Buffer
 - Arrays class usage examples
 - Logging configs, see application.properties
+- Junit with functional interfaces
 
 ## TODO
 - sorting

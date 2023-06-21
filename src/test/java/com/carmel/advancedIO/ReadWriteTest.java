@@ -4,6 +4,11 @@ import org.junit.jupiter.api.Test;
 
 import java.io.*;
 
+/**
+ * Probably you don't need read buffers anymore
+ * see ThrowableSuppliersTest with Files::ReadAllLines
+ *
+ */
 public class ReadWriteTest {
     /**
      *

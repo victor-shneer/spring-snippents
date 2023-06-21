@@ -82,6 +82,7 @@ public class UserService {
     }
 
     // use with lambdas like: eventually(() -> yourFunction());
+    // probably you don't need it. see ExecutableTest for junit assertions that take executables
     protected void eventually(Runnable code) throws InterruptedException {
         Instant started = Instant.now();
         Function<Duration, Boolean> hasPassed =
