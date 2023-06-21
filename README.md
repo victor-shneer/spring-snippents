@@ -31,6 +31,7 @@ Code aims illustration purposes, not the best practices.
 - Observer pattern
 - Chain pattern
 - Strategy pattern
+- Decorator pattern
 
 - maxParallelForks for `gradle test` see build.gradle tests setup
 
