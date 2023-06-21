@@ -29,7 +29,8 @@ Code aims illustration purposes, not the best practices.
 - Elegant Singleton holder on demand implementation
 - Composite pattern
 - Observer pattern
-- Chain patter
+- Chain pattern
+- Strategy pattern
 
 - maxParallelForks for `gradle test` see build.gradle tests setup
 
