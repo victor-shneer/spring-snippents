@@ -1,4 +1,4 @@
-package patterns.composite;
+package patterns.structure.composite;
 
 import lombok.Data;
 
