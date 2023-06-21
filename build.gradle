@@ -36,8 +36,11 @@ dependencies {
 	testImplementation("com.fasterxml.jackson.core:jackson-databind:2.13.4.2")
 	testImplementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310")
 
+
 }
 
 tasks.named('test') {
 	useJUnitPlatform()
+	maxParallelForks = 5
+//	(Runtime.getRuntime().availableProcessors() / 2).
 }

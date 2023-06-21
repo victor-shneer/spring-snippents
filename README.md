@@ -26,6 +26,7 @@ Code aims illustration purposes, not the best practices.
 - Arrays class usage examples
 - Logging configs, see application.properties
 - Junit with functional interfaces
+- maxParallelForks for `gradle test` see build.gradle tests setup
 
 ## TODO
 - sorting

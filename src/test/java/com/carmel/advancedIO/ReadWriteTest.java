@@ -94,8 +94,8 @@ public class ReadWriteTest {
 
     @Test
     void readWriteTest() {
-        String from = "/Users/testuser/Documents/GitHub/spring-snippents/read.png";
-        String to = "/Users/testuser/Documents/GitHub/spring-snippents/write.png";
+        String from = System.getProperty("user.dir") + "/read.png";
+        String to = System.getProperty("user.dir") + "/write.png";
         try {
             long startTime = System.currentTimeMillis();
             readWrite(from, to);
