@@ -1,4 +1,4 @@
-package com.carmel.springSnippents;
+package patterns;
 
 public class Singleton {
     private Singleton(){
