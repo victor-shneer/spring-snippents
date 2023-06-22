@@ -28,6 +28,7 @@ Code aims illustration purposes, not the best practices.
 - Junit with functional interfaces
 - Elegant Singleton holder on demand implementation
 - Composite pattern
+- Observer pattern
 
 - maxParallelForks for `gradle test` see build.gradle tests setup
 
