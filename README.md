@@ -27,6 +27,8 @@ Code aims illustration purposes, not the best practices.
 - Logging configs, see application.properties
 - Junit with functional interfaces
 - Elegant Singleton holder on demand implementation
+- Composite pattern
+
 - maxParallelForks for `gradle test` see build.gradle tests setup
 
 ## TODO
